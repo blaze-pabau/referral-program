@@ -224,9 +224,9 @@
     opacity:.9;
   }
   /* two-column: intro/quote left, form right */
-  .cta-grid{ position:relative; z-index:1; display:grid; grid-template-columns:0.92fr 1.08fr; gap:60px; align-items:start; }
-  .cta-grid__intro{ grid-column:1; grid-row:1; color:#fff; }
-  .cta-grid__form{ grid-column:2; grid-row:1; }
+  .cta-grid{ position:relative; z-index:1; display:grid; grid-template-columns:1.15fr 0.85fr; gap:60px; align-items:start; }
+  .cta-grid__form{ grid-column:1; grid-row:1; }
+  .cta-grid__intro{ grid-column:2; grid-row:1; color:#fff; }
   .cta-grid__intro-title{ font-size:clamp(26px,2.6vw,34px); font-weight:700; letter-spacing:-.02em; line-height:1.12; margin:0 0 16px; }
   .cta-grid__intro-text{ font-size:16px; line-height:1.6; color:#EAF2FB; max-width:44ch; margin:0 0 34px; }
   .cta-benefits{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:32px; }
@@ -432,11 +432,11 @@
     .step-arrow{ transform:rotate(90deg); width:auto; padding:2px 0; }
     .section__head{ margin-bottom:40px; }
     .cta-grid{ grid-template-columns:1fr; gap:36px; }
-    .cta-grid__intro{ grid-column:1; grid-row:1; text-align:left; }
+    .cta-grid__form{ grid-column:1; grid-row:1; }
+    .cta-grid__intro{ grid-column:1; grid-row:2; text-align:left; }
     .cta-grid__intro-text{ margin-left:0; margin-right:0; max-width:100%; }
     .cta-benefits{ gap:20px; }
     .cta-testimonial{ margin-top:32px; }
-    .cta-grid__form{ grid-column:1; grid-row:2; }
     .refer-row{ grid-template-columns:1fr; gap:12px; padding:16px 0; }
     .faq-list{ grid-template-columns:1fr; }
     .footer__inner{ grid-template-columns:1fr 1fr; gap:32px; }
@@ -647,11 +647,11 @@
           </div>
           <div class="refer-tags">
             <a class="refer-tag" href="https://pabau.com/industry/gp-clinic-software/" target="_blank" rel="noopener">Private Practice / GP</a>
-            <a class="refer-tag" href="https://pabau.com/industry/iv-therapy-software/" target="_blank" rel="noopener">IV Therapy</a>
-            <a class="refer-tag" href="https://pabau.com/industry/wellness-software/" target="_blank" rel="noopener">Wellness</a>
+            <a class="refer-tag" href="https://pabau.com/industry/iv-therapy-emr-software/" target="_blank" rel="noopener">IV Therapy</a>
+            <a class="refer-tag" href="https://pabau.com/industry/wellness-clinic-software/" target="_blank" rel="noopener">Wellness</a>
             <a class="refer-tag" href="https://pabau.com/industry/weight-loss-clinic-software/" target="_blank" rel="noopener">Weight Loss</a>
             <a class="refer-tag" href="https://pabau.com/industry/longevity-clinic-software/" target="_blank" rel="noopener">Longevity</a>
-            <a class="refer-tag" href="https://pabau.com/industry/metabolic-health-software/" target="_blank" rel="noopener">Metabolic Health</a>
+            <a class="refer-tag" href="https://pabau.com/industry/metabolic-health-emr/" target="_blank" rel="noopener">Metabolic Health</a>
             <a class="refer-tag" href="https://pabau.com/industry/functional-medicine-software/" target="_blank" rel="noopener">Functional Medicine</a>
           </div>
         </div>
@@ -662,13 +662,13 @@
             <h3 class="refer-cat__title">Medical Aesthetics</h3>
           </div>
           <div class="refer-tags">
-            <a class="refer-tag" href="https://pabau.com/industry/medspa-software/" target="_blank" rel="noopener">Medspa</a>
+            <a class="refer-tag" href="https://pabau.com/industry/medical-spa-software/" target="_blank" rel="noopener">Medspa</a>
             <a class="refer-tag" href="https://pabau.com/industry/skin-clinic-software/" target="_blank" rel="noopener">Skin Clinic</a>
-            <a class="refer-tag" href="https://pabau.com/industry/aesthetic-clinic-software/" target="_blank" rel="noopener">Aesthetic Clinic</a>
+            <a class="refer-tag" href="https://pabau.com/industry/medical-spa-software/" target="_blank" rel="noopener">Aesthetic Clinic</a>
             <a class="refer-tag" href="https://pabau.com/industry/laser-clinic-software/" target="_blank" rel="noopener">Laser Clinic</a>
             <a class="refer-tag" href="https://pabau.com/industry/dermatology-emr-software/" target="_blank" rel="noopener">Dermatology</a>
-            <a class="refer-tag" href="https://pabau.com/industry/hair-transplant-clinic-software/" target="_blank" rel="noopener">Hair Transplant Clinic</a>
-            <a class="refer-tag" href="https://pabau.com/industry/cosmetic-surgery-software/" target="_blank" rel="noopener">Cosmetic Surgery</a>
+            <a class="refer-tag" href="https://pabau.com/industry/hair-clinic-crm/" target="_blank" rel="noopener">Hair Transplant Clinic</a>
+            <a class="refer-tag" href="https://pabau.com/industry/plastic-surgery-emr/" target="_blank" rel="noopener">Cosmetic Surgery</a>
             <a class="refer-tag" href="https://pabau.com/industry/spa-software/" target="_blank" rel="noopener">Spa</a>
           </div>
         </div>
@@ -682,9 +682,9 @@
             <a class="refer-tag" href="https://pabau.com/industry/fertility-clinic-software/" target="_blank" rel="noopener">Fertility</a>
             <a class="refer-tag" href="https://pabau.com/industry/sexual-health-clinic-software/" target="_blank" rel="noopener">Sexual Health</a>
             <a class="refer-tag" href="https://pabau.com/industry/obgyn-emr-software/" target="_blank" rel="noopener">IVF &amp; Gynecology</a>
-            <a class="refer-tag" href="https://pabau.com/industry/pelvic-health-clinic-software/" target="_blank" rel="noopener">Pelvic Health</a>
+            <a class="refer-tag" href="https://pabau.com/industry/pelvic-health-software/" target="_blank" rel="noopener">Pelvic Health</a>
             <a class="refer-tag" href="https://pabau.com/industry/mens-health-clinic-software/" target="_blank" rel="noopener">Men's Health</a>
-            <a class="refer-tag" href="https://pabau.com/industry/hormone-replacement-therapy-software/" target="_blank" rel="noopener">Hormone Replacement Therapy</a>
+            <a class="refer-tag" href="https://pabau.com/industry/hrt-clinic-software/" target="_blank" rel="noopener">Hormone Replacement Therapy</a>
           </div>
         </div>
 
@@ -695,11 +695,11 @@
           </div>
           <div class="refer-tags">
             <a class="refer-tag" href="https://pabau.com/industry/physical-therapy-emr/" target="_blank" rel="noopener">Physical Therapy</a>
-            <a class="refer-tag" href="https://pabau.com/industry/osteopathy-software/" target="_blank" rel="noopener">Osteopathy</a>
+            <a class="refer-tag" href="https://pabau.com/industry/osteopathy-practice-software/" target="_blank" rel="noopener">Osteopathy</a>
             <a class="refer-tag" href="https://pabau.com/industry/sports-medicine-software/" target="_blank" rel="noopener">Sports Medicine</a>
             <a class="refer-tag" href="https://pabau.com/industry/regenerative-medicine-emr/" target="_blank" rel="noopener">Regenerative Medicine</a>
             <a class="refer-tag" href="https://pabau.com/industry/chiropractic-software/" target="_blank" rel="noopener">Chiropractic</a>
-            <a class="refer-tag" href="https://pabau.com/industry/prp-therapy-software/" target="_blank" rel="noopener">PRP Therapy</a>
+            <a class="refer-tag" href="https://pabau.com/industry/regenerative-medicine-emr/" target="_blank" rel="noopener">PRP Therapy</a>
           </div>
         </div>
 
@@ -709,11 +709,11 @@
             <h3 class="refer-cat__title">Mental Health &amp; Lifestyle</h3>
           </div>
           <div class="refer-tags">
-            <a class="refer-tag" href="https://pabau.com/industry/mental-health-software/" target="_blank" rel="noopener">Mental Health</a>
-            <a class="refer-tag" href="https://pabau.com/industry/psychiatry-practice-management-software/" target="_blank" rel="noopener">Psychiatry</a>
-            <a class="refer-tag" href="https://pabau.com/industry/psychology-practice-management-software/" target="_blank" rel="noopener">Psychology</a>
-            <a class="refer-tag" href="https://pabau.com/industry/coaching-software/" target="_blank" rel="noopener">Coaching</a>
-            <a class="refer-tag" href="https://pabau.com/industry/counselling-software/" target="_blank" rel="noopener">Therapy &amp; Counseling</a>
+            <a class="refer-tag" href="https://pabau.com/industry/mental-health-emr/" target="_blank" rel="noopener">Mental Health</a>
+            <a class="refer-tag" href="https://pabau.com/industry/psychiatry-emr-software/" target="_blank" rel="noopener">Psychiatry</a>
+            <a class="refer-tag" href="https://pabau.com/industry/psychology-practice-software/" target="_blank" rel="noopener">Psychology</a>
+            <a class="refer-tag" href="https://pabau.com/industry/coaching-client-management-system/" target="_blank" rel="noopener">Coaching</a>
+            <a class="refer-tag" href="https://pabau.com/industry/therapy-practice-management/" target="_blank" rel="noopener">Therapy &amp; Counseling</a>
             <a class="refer-tag" href="https://pabau.com/industry/speech-therapy-software/" target="_blank" rel="noopener">Speech Therapy</a>
             <a class="refer-tag" href="https://pabau.com/industry/adhd-clinic-software/" target="_blank" rel="noopener">ADHD Assessment</a>
           </div>
